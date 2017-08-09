@@ -1,4 +1,7 @@
 import javax.swing.JOptionPane;
+
+import static javax.swing.JOptionPane.showInputDialog;
+
 public class FixDebugTwo4
 {
    public static void main(String[] args)
@@ -6,7 +9,7 @@ public class FixDebugTwo4
       String costString;
       double cost;
       final double TAX = 0.06;
-      costString = JOptionPane.showInputDialog("Enter price of item you are buying, Purchases");
+      costString = showInputDialog("Enter price of item you are buying, Purchases");
        //Confused on this part
          JOptionPane.INFORMATION_MESSAGE);
       cost = Double.parseInt(costString);
