@@ -1,3 +1,4 @@
+/*
 import javax.swing.JOptionPane;
 
 import static javax.swing.JOptionPane.showInputDialog;
@@ -17,3 +18,4 @@ public class FixDebugTwo4
          "% tax,  purchase  is $" + (cost - cost * tax));
    }
 }
+*/
